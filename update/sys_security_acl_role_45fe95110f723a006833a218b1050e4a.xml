@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>dgarber</sys_created_by>
+        <sys_created_on>2017-05-17 03:02:37</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>45fe95110f723a006833a218b1050e4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_lohar_opera_conf_roomslist.x_lohar_opera_conf.roomslist_user</sys_name>
+        <sys_package display_value="Loews Hotels Opera Configuration Form" source="x_lohar_opera_conf">6c8ed5dd0f323a006833a218b1050e9a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Loews Hotels Opera Configuration Form">6c8ed5dd0f323a006833a218b1050e9a</sys_scope>
+        <sys_security_acl display_value="x_lohar_opera_conf_roomslist">85fe95110f723a006833a218b1050e47</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_45fe95110f723a006833a218b1050e4a</sys_update_name>
+        <sys_updated_by>dgarber</sys_updated_by>
+        <sys_updated_on>2017-05-17 03:02:37</sys_updated_on>
+        <sys_user_role display_value="x_lohar_opera_conf.roomslist_user" name="x_lohar_opera_conf.roomslist_user">a8fe15110f723a006833a218b1050e9c</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

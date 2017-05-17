@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="9810186d0f327a00730d6509b1050ed3" sys_domain="global" table="x_lohar_opera_conf_config" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-05-17 15:56:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5010186d0f327a00730d6509b1050ed6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_lohar_opera_conf_config" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">9810186d0f327a00730d6509b1050ed3</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">b16e882d0f327a00730d6509b1050e30</sys_ui_section>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-05-17 15:56:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-05-17 15:56:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>1c10186d0f327a00730d6509b1050ed6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_lohar_opera_conf_config" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">9810186d0f327a00730d6509b1050ed3</sys_ui_form>
+            <sys_ui_section caption="Item Inventory" display_value="Item Inventory" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">5410186d0f327a00730d6509b1050ed1</sys_ui_section>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-05-17 15:56:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-05-17 15:56:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5c10186d0f327a00730d6509b1050ee6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_lohar_opera_conf_config" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">9810186d0f327a00730d6509b1050ed3</sys_ui_form>
+            <sys_ui_section caption="Special Codes" display_value="Special Codes" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">5c10186d0f327a00730d6509b1050ed1</sys_ui_section>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-05-17 15:56:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-05-17 15:56:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d810186d0f327a00730d6509b1050eea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_lohar_opera_conf_config" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">9810186d0f327a00730d6509b1050ed3</sys_ui_form>
+            <sys_ui_section caption="Room Type" display_value="Room Type" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">5410186d0f327a00730d6509b1050ed2</sys_ui_section>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-05-17 15:56:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-05-17 15:56:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>dc10186d0f327a00730d6509b1050eee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_lohar_opera_conf_config" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">9810186d0f327a00730d6509b1050ed3</sys_ui_form>
+            <sys_ui_section caption="Rooms" display_value="Rooms" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">5c10186d0f327a00730d6509b1050ed2</sys_ui_section>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-05-17 15:56:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_lohar_opera_conf_config</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-05-17 15:56:26</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>9810186d0f327a00730d6509b1050ed3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_lohar_opera_conf_config</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Loews Hotels Opera Configuration Form" source="x_lohar_opera_conf">6c8ed5dd0f323a006833a218b1050e9a</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Loews Hotels Opera Configuration Form">6c8ed5dd0f323a006833a218b1050e9a</sys_scope>
+            <sys_update_name>sys_ui_form_sections_9810186d0f327a00730d6509b1050ed3</sys_update_name>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-05-17 15:56:26</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
