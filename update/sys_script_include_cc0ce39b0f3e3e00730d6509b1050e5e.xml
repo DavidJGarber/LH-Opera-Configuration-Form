@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_lohar_opera_conf.PopulateApproverFieldsAjaxJSON</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>PopulateApproverFieldsAjaxJSON</name>
+        <script><![CDATA[var PopulateApproverFieldsAjaxJSON = Class.create();
+PopulateApproverFieldsAjaxJSON.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	ajaxFunction_getUsersValues : function() {
+		var locationid = this.getParameter('sysparam_location_id');
+		alert(locationid);
+		var retRes = {};
+		
+		//get hotel mapping record
+		var gr = new GlideRecord('u_hotel_interface_mapping');
+		gr.addQuery('u_location', locationid);
+		gr.query();
+		if (gr.next()){
+			retRes.u_hotel_director_of_finance = gr.u_hotel_director_of_finance;
+			retRes.u_gm = gr.u_gm;
+		}
+		return new JSON().encode(retRes);
+	},
+    type: 'PopulateApproverFieldsAjaxJSON'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>dgarber</sys_created_by>
+        <sys_created_on>2017-05-23 18:34:21</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>cc0ce39b0f3e3e00730d6509b1050e5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PopulateApproverFieldsAjaxJSON</sys_name>
+        <sys_package display_value="Loews Hotels Opera Configuration Form" source="x_lohar_opera_conf">6c8ed5dd0f323a006833a218b1050e9a</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Loews Hotels Opera Configuration Form">6c8ed5dd0f323a006833a218b1050e9a</sys_scope>
+        <sys_update_name>sys_script_include_cc0ce39b0f3e3e00730d6509b1050e5e</sys_update_name>
+        <sys_updated_by>dgarber</sys_updated_by>
+        <sys_updated_on>2017-05-23 18:34:21</sys_updated_on>
+    </sys_script_include>
+</record_update>
