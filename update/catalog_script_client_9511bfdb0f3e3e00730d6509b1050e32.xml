@@ -42,7 +42,7 @@
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>dgarber</sys_created_by>
         <sys_created_on>2017-05-23 18:48:55</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>9511bfdb0f3e3e00730d6509b1050e32</sys_id>
         <sys_mod_count>0</sys_mod_count>

@@ -4,7 +4,7 @@
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>dgarber</sys_created_by>
         <sys_created_on>2017-05-17 03:02:37</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>78fe95110f723a006833a218b1050e44</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_lohar_opera_conf_roomslist.x_lohar_opera_conf.roomslist_user</sys_name>

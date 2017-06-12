@@ -65,7 +65,7 @@
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>dgarber</sys_created_by>
             <sys_created_on>2017-05-17 15:56:26</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_id>5410186d0f327a00730d6509b1050ed1</sys_id>
             <sys_mod_count>0</sys_mod_count>

@@ -58,7 +58,7 @@
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>dgarber</sys_created_by>
         <sys_created_on>2017-05-18 20:18:21</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>0495def90f3e7a00730d6509b1050eb0</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>formatter6</sys_name>

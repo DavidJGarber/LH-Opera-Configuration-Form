@@ -58,7 +58,7 @@
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>dgarber</sys_created_by>
         <sys_created_on>2017-05-23 18:46:41</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>d860bb5b0f3e3e00730d6509b1050e79</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Hotel</sys_name>
