@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_lohar_opera_conf_config">state=1^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Open</label>
+        <name>Open</name>
+        <order>1</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>dgarber</sys_created_by>
+        <sys_created_on>2017-06-19 18:48:21</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>c6c37a840fafb600730d6509b1050e0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open</sys_name>
+        <sys_package display_value="Loews Hotels Opera Configuration Form" source="x_lohar_opera_conf">6c8ed5dd0f323a006833a218b1050e9a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Loews Hotels Opera Configuration Form">6c8ed5dd0f323a006833a218b1050e9a</sys_scope>
+        <sys_update_name>sys_process_flow_c6c37a840fafb600730d6509b1050e0f</sys_update_name>
+        <sys_updated_by>dgarber</sys_updated_by>
+        <sys_updated_on>2017-06-19 18:48:21</sys_updated_on>
+        <table>x_lohar_opera_conf_config</table>
+    </sys_process_flow>
+</record_update>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Config" max_length="40" name="x_lohar_opera_conf_config" sizeclass="1" type="collection">
+    <element audit="true" extends="task" label="Config" max_length="40" name="x_lohar_opera_conf_config" sizeclass="5" type="collection">
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Actions" max_length="32" name="u_actions" type="string">
             <choice>
                 <element label="New" sequence="0" value="New"/>
@@ -37,5 +37,17 @@
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Second Approver" max_length="32" name="u_second_approver" reference="sys_user" type="reference"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Special Code" max_length="40" name="u_special_code" type="string"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Special Code Description" max_length="40" name="u_special_code_description" type="string"/>
+        <element choice="1" default="4" label="status" max_length="40" name="u_status" type="integer">
+            <choice>
+                <element label="Open" sequence="0" value="1"/>
+                <element label="Waiting Property Approval" sequence="1" value="2"/>
+                <element label="Waiting Corporate Approal" sequence="2" value="3"/>
+                <element label="Waiting for Assignment" sequence="3" value="4"/>
+                <element label="Work in Progress" sequence="4" value="5"/>
+                <element label="Closed - Complete" sequence="5" value="6"/>
+                <element label="Closed - Cancelled" sequence="6" value="7"/>
+                <element label="Closed - Rejected" sequence="7" value="8"/>
+            </choice>
+        </element>
     </element>
 </database>

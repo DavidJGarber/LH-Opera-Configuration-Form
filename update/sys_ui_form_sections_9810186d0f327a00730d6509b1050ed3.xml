@@ -4,15 +4,15 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>0</position>
             <sys_created_by>dgarber</sys_created_by>
-            <sys_created_on>2017-05-17 15:56:26</sys_created_on>
+            <sys_created_on>2017-06-19 18:52:23</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_id>5010186d0f327a00730d6509b1050ed6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>d3c432c40fafb600730d6509b1050eb0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_lohar_opera_conf_config" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">9810186d0f327a00730d6509b1050ed3</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">b16e882d0f327a00730d6509b1050e30</sys_ui_section>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">43c432c40fafb600730d6509b1050e97</sys_ui_section>
             <sys_updated_by>dgarber</sys_updated_by>
-            <sys_updated_on>2017-05-17 15:56:26</sys_updated_on>
+            <sys_updated_on>2017-06-19 18:52:23</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
@@ -66,6 +66,19 @@
             <sys_updated_by>dgarber</sys_updated_by>
             <sys_updated_on>2017-05-17 15:56:26</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-06-26 20:58:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>93b45fd60fe7ba00730d6509b1050e19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_lohar_opera_conf_config" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">9810186d0f327a00730d6509b1050ed3</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">13b45fd60fe7ba00730d6509b1050e15</sys_ui_section>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-06-26 20:58:15</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_lohar_opera_conf_config</name>
             <roles/>
@@ -75,7 +88,7 @@
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_id>9810186d0f327a00730d6509b1050ed3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_name>x_lohar_opera_conf_config</sys_name>
             <sys_overrides/>
             <sys_package display_value="Loews Hotels Opera Configuration Form" source="x_lohar_opera_conf">6c8ed5dd0f323a006833a218b1050e9a</sys_package>
@@ -84,7 +97,7 @@
             <sys_scope display_value="Loews Hotels Opera Configuration Form">6c8ed5dd0f323a006833a218b1050e9a</sys_scope>
             <sys_update_name>sys_ui_form_sections_9810186d0f327a00730d6509b1050ed3</sys_update_name>
             <sys_updated_by>dgarber</sys_updated_by>
-            <sys_updated_on>2017-05-17 15:56:26</sys_updated_on>
+            <sys_updated_on>2017-06-26 20:58:15</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

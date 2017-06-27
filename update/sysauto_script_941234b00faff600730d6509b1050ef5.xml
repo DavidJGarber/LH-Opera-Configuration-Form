@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>update state to property approvers</name>
+        <run_as display_value="David Garber (dgarber)">b31704c9416bd000507e1df1760a01ff</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period>1970-01-01 00:15:00</run_period>
+        <run_start>2017-06-21 17:13:00</run_start>
+        <run_time>1970-01-01 05:00:00</run_time>
+        <run_type>periodically</run_type>
+        <script><![CDATA[function loewsoperaapproval(daysAgo) {
+//var lm = 'loewsApprovalReminder';
+//var pn = parseInt(gs.getProperty('ge.approval_reminder', '3'));  
+//	var pn = daysAgo; 
+//	gs.log('daysAgo: ' + daysAgo + ' pn: ' + pn);
+    var gr = N.getRecords('x_lohar_opera_conf_config', 'state=open');
+//gs.log('Records: ' + gr.getRowCount() + ' days: ' + pn + ' ago: ' + gs.daysAgoStart(pn), lm);
+while (gr.next()) {
+//gs.log('Processing: ' + gr.sysapproval.number + ' ' + gr.approver.getDisplayValue(), lm);
+//gr.u_remindercount = gr.u_remindercount + 1;
+//	gr.comments='Approval reminder sent: ' +  gr.u_remindercount;
+//gr.setForceUpdate(true); // force sys_updated_on to be updated for next reminder
+gr.state = 2;
+gr.update();
+//gs.eventQueue('loews.approval_reminder', gr, gr.sysapproval.number, ''); // generate new reminder event
+}
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>dgarber</sys_created_by>
+        <sys_created_on>2017-06-21 17:16:37</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>941234b00faff600730d6509b1050ef5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>update state to property approvers</sys_name>
+        <sys_package display_value="Loews Hotels Opera Configuration Form" source="x_lohar_opera_conf">6c8ed5dd0f323a006833a218b1050e9a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Loews Hotels Opera Configuration Form">6c8ed5dd0f323a006833a218b1050e9a</sys_scope>
+        <sys_update_name>sysauto_script_941234b00faff600730d6509b1050ef5</sys_update_name>
+        <sys_updated_by>dgarber</sys_updated_by>
+        <sys_updated_on>2017-06-21 17:16:37</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

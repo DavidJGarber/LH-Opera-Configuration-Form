@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Opera Config Form Set status for Workflow</name>
+        <run_as display_value="David Garber (dgarber)">b31704c9416bd000507e1df1760a01ff</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period>1970-01-01 00:15:00</run_period>
+        <run_start>2017-06-19 15:23:00</run_start>
+        <run_time>1970-01-01 05:00:00</run_time>
+        <run_type>periodically</run_type>
+        <script><![CDATA[OperaApprover();
+function OperaApprover(){
+var target = new GlideRecord('x_lohar_opera_conf_config');
+target.addQuery('active',true);
+target.addQuery('state','=',1);
+target.query();
+
+while (target.next()){
+	
+	target.state = 2;
+	target.update();
+}
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>dgarber</sys_created_by>
+        <sys_created_on>2017-06-19 16:03:23</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>e305cac00f6fb600730d6509b1050e5c</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Opera Config Form Set status for Workflow</sys_name>
+        <sys_package display_value="Loews Hotels Opera Configuration Form" source="x_lohar_opera_conf">6c8ed5dd0f323a006833a218b1050e9a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Loews Hotels Opera Configuration Form">6c8ed5dd0f323a006833a218b1050e9a</sys_scope>
+        <sys_update_name>sysauto_script_e305cac00f6fb600730d6509b1050e5c</sys_update_name>
+        <sys_updated_by>dgarber</sys_updated_by>
+        <sys_updated_on>2017-06-26 16:10:19</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>
