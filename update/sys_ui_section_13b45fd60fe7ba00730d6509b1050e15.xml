@@ -1,47 +1,257 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_ui_section caption="New Section" section_id="13b45fd60fe7ba00730d6509b1050e15" sys_domain="global" table="x_lohar_opera_conf_config" version="3" view="">
+    <sys_ui_section caption="" section_id="13b45fd60fe7ba00730d6509b1050e15" sys_domain="global" table="x_lohar_opera_conf_config" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>activity.xml</element>
+            <element>process_flow.xml</element>
             <position>0</position>
             <sys_created_by>dgarber</sys_created_by>
-            <sys_created_on>2017-06-26 21:00:16</sys_created_on>
-            <sys_id>7035531a0fe7ba00730d6509b1050e54</sys_id>
+            <sys_created_on>2017-07-06 02:35:21</sys_created_on>
+            <sys_id>0538fa590f7bf6006833a218b1050e9c</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">13b45fd60fe7ba00730d6509b1050e15</sys_ui_section>
+            <sys_ui_formatter display_value="Process Flow">58e3f6840fafb600730d6509b1050e75</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">13b45fd60fe7ba00730d6509b1050e15</sys_ui_section>
             <sys_updated_by>dgarber</sys_updated_by>
-            <sys_updated_on>2017-06-26 21:00:16</sys_updated_on>
+            <sys_updated_on>2017-07-06 02:35:21</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>activity.xml</element>
+            <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>dgarber</sys_created_by>
-            <sys_created_on>2017-06-26 21:00:16</sys_created_on>
-            <sys_id>7435531a0fe7ba00730d6509b1050e54</sys_id>
+            <sys_created_on>2017-07-06 02:35:21</sys_created_on>
+            <sys_id>0138fa590f7bf6006833a218b1050e9d</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter display_value="Activities (filtered)">b832d3560a0001c700d781efe21e22f5</sys_ui_formatter>
-            <sys_ui_section caption="New Section" display_value="New Section" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">13b45fd60fe7ba00730d6509b1050e15</sys_ui_section>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">13b45fd60fe7ba00730d6509b1050e15</sys_ui_section>
             <sys_updated_by>dgarber</sys_updated_by>
-            <sys_updated_on>2017-06-26 21:00:16</sys_updated_on>
+            <sys_updated_on>2017-07-06 02:35:21</sys_updated_on>
             <sys_user/>
-            <type>formatter</type>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>2</position>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-07-06 02:35:21</sys_created_on>
+            <sys_id>8138fa590f7bf6006833a218b1050e9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">13b45fd60fe7ba00730d6509b1050e15</sys_ui_section>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-07-06 02:35:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_requestor</element>
+            <position>3</position>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-07-06 02:35:21</sys_created_on>
+            <sys_id>0538fa590f7bf6006833a218b1050e9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">13b45fd60fe7ba00730d6509b1050e15</sys_ui_section>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-07-06 02:35:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_location</element>
+            <position>4</position>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-07-06 02:35:21</sys_created_on>
+            <sys_id>8538fa590f7bf6006833a218b1050e9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">13b45fd60fe7ba00730d6509b1050e15</sys_ui_section>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-07-06 02:35:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>due_date</element>
+            <position>5</position>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-07-06 02:35:21</sys_created_on>
+            <sys_id>0938fa590f7bf6006833a218b1050e9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">13b45fd60fe7ba00730d6509b1050e15</sys_ui_section>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-07-06 02:35:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-07-06 02:35:21</sys_created_on>
+            <sys_id>8938fa590f7bf6006833a218b1050e9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">13b45fd60fe7ba00730d6509b1050e15</sys_ui_section>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-07-06 02:35:21</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_at</element>
+            <position>7</position>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-07-06 02:35:21</sys_created_on>
+            <sys_id>0d38fa590f7bf6006833a218b1050e9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">13b45fd60fe7ba00730d6509b1050e15</sys_ui_section>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-07-06 02:35:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_actions</element>
+            <position>8</position>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-07-06 02:35:21</sys_created_on>
+            <sys_id>8d38fa590f7bf6006833a218b1050e9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">13b45fd60fe7ba00730d6509b1050e15</sys_ui_section>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-07-06 02:35:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>9</position>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-07-06 02:35:21</sys_created_on>
+            <sys_id>0138fa590f7bf6006833a218b1050e9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">13b45fd60fe7ba00730d6509b1050e15</sys_ui_section>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-07-06 02:35:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>10</position>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-07-06 02:35:21</sys_created_on>
+            <sys_id>8138fa590f7bf6006833a218b1050e9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">13b45fd60fe7ba00730d6509b1050e15</sys_ui_section>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-07-06 02:35:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>11</position>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-07-06 02:35:21</sys_created_on>
+            <sys_id>0538fa590f7bf6006833a218b1050e9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">13b45fd60fe7ba00730d6509b1050e15</sys_ui_section>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-07-06 02:35:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>12</position>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-07-06 02:35:21</sys_created_on>
+            <sys_id>8538fa590f7bf6006833a218b1050e9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">13b45fd60fe7ba00730d6509b1050e15</sys_ui_section>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-07-06 02:35:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-07-06 02:35:21</sys_created_on>
+            <sys_id>0938fa590f7bf6006833a218b1050e9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">13b45fd60fe7ba00730d6509b1050e15</sys_ui_section>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-07-06 02:35:21</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>14</position>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-07-06 02:35:21</sys_created_on>
+            <sys_id>8938fa590f7bf6006833a218b1050e9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">13b45fd60fe7ba00730d6509b1050e15</sys_ui_section>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-07-06 02:35:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>15</position>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-07-06 02:35:21</sys_created_on>
+            <sys_id>0d38fa590f7bf6006833a218b1050e9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">13b45fd60fe7ba00730d6509b1050e15</sys_ui_section>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-07-06 02:35:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_business_reason</element>
+            <position>16</position>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-07-06 02:35:21</sys_created_on>
+            <sys_id>8d38fa590f7bf6006833a218b1050e9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">13b45fd60fe7ba00730d6509b1050e15</sys_ui_section>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-07-06 02:35:21</sys_updated_on>
+            <sys_user/>
+            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
-            <caption>New Section</caption>
+            <caption/>
             <header>false</header>
             <name>x_lohar_opera_conf_config</name>
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>dgarber</sys_created_by>
-            <sys_created_on>2017-06-26 20:58:15</sys_created_on>
+            <sys_created_on>2017-06-19 18:52:22</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_id>13b45fd60fe7ba00730d6509b1050e15</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>New Section</sys_name>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>x_lohar_opera_conf_config</sys_name>
             <sys_overrides display_value="">global</sys_overrides>
             <sys_package display_value="Loews Hotels Opera Configuration Form" source="x_lohar_opera_conf">6c8ed5dd0f323a006833a218b1050e9a</sys_package>
             <sys_policy/>
@@ -49,7 +259,7 @@
             <sys_scope display_value="Loews Hotels Opera Configuration Form">6c8ed5dd0f323a006833a218b1050e9a</sys_scope>
             <sys_update_name>sys_ui_section_13b45fd60fe7ba00730d6509b1050e15</sys_update_name>
             <sys_updated_by>dgarber</sys_updated_by>
-            <sys_updated_on>2017-06-26 20:58:15</sys_updated_on>
+            <sys_updated_on>2017-07-03 14:32:51</sys_updated_on>
             <sys_user/>
             <title>false</title>
             <view display_value="Default view" name="NULL">Default view</view>

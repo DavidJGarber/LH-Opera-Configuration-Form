@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>sysapproval_approver</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<img style="align: baseline;" title="" src="hotels_logo.pngx" alt="" align="baseline" border="" hspace="" vspace="" /></p>
+<p>Note: ${wf_activity} is required for Opera Configuration Request Form # ${sysapproval} (${sysapproval.short_description}) requested by ${sysapproval.u_requestor}. Please approve or reject the required approval by clicking on the Approval Request link below or replying to this notification with "Approve" or "Reject". &lt;hr/&gt;</p>
+<p>Approval for: ${sys_class_name}</p>
+<p>Opera Configuration Form - Action: ${sysapproval.u_actions}</p>
+<p>Opera Configuration From - Short Description: ${sysapproval.short_description}</p>
+<p>Opera Configuration Business Reason: ${sysapproval.u_business_reason}</p>
+<p>State: ${sysapproval.state}<br />Requested by: ${sysapproval.u_requestor}<br /><br /></p>
+<p>template.print("Loews Hotels, click here to view the Approval Request: " + link + ", ${sysapproval.sys_class_name}: " + url + "\n\n");</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>itil.approve.role.operaconfigform</name>
+        <sms_alternate/>
+        <subject>${sysapproval.sys_class_name} ${sysapproval} Approval Request - ${wf_activity} Required</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>dgarber</sys_created_by>
+        <sys_created_on>2017-07-03 15:22:24</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>5df3c2640fffb200730d6509b1050ead</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>itil.approve.role.operaconfigform</sys_name>
+        <sys_package display_value="Loews Hotels Opera Configuration Form" source="x_lohar_opera_conf">6c8ed5dd0f323a006833a218b1050e9a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Loews Hotels Opera Configuration Form">6c8ed5dd0f323a006833a218b1050e9a</sys_scope>
+        <sys_update_name>sysevent_email_template_5df3c2640fffb200730d6509b1050ead</sys_update_name>
+        <sys_updated_by>dgarber</sys_updated_by>
+        <sys_updated_on>2017-07-06 15:45:54</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

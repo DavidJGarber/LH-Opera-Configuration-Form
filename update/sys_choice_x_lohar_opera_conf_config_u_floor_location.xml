@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_floor_location" table="x_lohar_opera_conf_config" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_floor_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HGH - High</label>
+            <language>en</language>
+            <name>x_lohar_opera_conf_config</name>
+            <sequence>0</sequence>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-07-06 15:20:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4a4725e50fbb3600730d6509b1050edc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-07-06 15:20:17</sys_updated_on>
+            <value>HGH - High</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_floor_location</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>LOW - LOW</label>
+            <language>en</language>
+            <name>x_lohar_opera_conf_config</name>
+            <sequence>1</sequence>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-07-06 15:20:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c64725e50fbb3600730d6509b1050ede</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-07-06 15:20:17</sys_updated_on>
+            <value>LOW - LOW</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_floor_location</element>
+            <name>x_lohar_opera_conf_config</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-07-06 15:20:17</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>824725e50fbb3600730d6509b1050ede</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>u_floor_location</sys_name>
+            <sys_package display_value="Loews Hotels Opera Configuration Form" source="x_lohar_opera_conf">6c8ed5dd0f323a006833a218b1050e9a</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Loews Hotels Opera Configuration Form">6c8ed5dd0f323a006833a218b1050e9a</sys_scope>
+            <sys_update_name>sys_choice_x_lohar_opera_conf_config_u_floor_location</sys_update_name>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-07-06 15:20:17</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

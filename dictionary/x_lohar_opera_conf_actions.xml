@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Actions" max_length="40" name="x_lohar_opera_conf_actions" type="collection">
+        <element label="Action Code" max_length="40" name="action_code" type="string"/>
+        <element label="Action Name" max_length="40" name="action_name" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="order by" max_length="32" name="u_order_by" type="integer"/>
+    </element>
+</database>

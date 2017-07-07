@@ -53,7 +53,7 @@
         <sys_created_by>dgarber</sys_created_by>
         <sys_created_on>2017-06-12 20:03:12</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>d7cbbf020fdff200730d6509b1050e97</sys_id>
+        <sys_id>fcfb89430feff2006833a218b1050ed2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Property Approvers</sys_name>
         <sys_package display_value="Loews Hotels Opera Configuration Form" source="x_lohar_opera_conf">6c8ed5dd0f323a006833a218b1050e9a</sys_package>
@@ -62,7 +62,7 @@
         <sys_scope display_value="Loews Hotels Opera Configuration Form">6c8ed5dd0f323a006833a218b1050e9a</sys_scope>
         <sys_update_name>sys_dictionary_x_lohar_opera_conf_config_u_property_approvers</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-06-13 19:04:54</sys_updated_on>
+        <sys_updated_on>2017-06-28 19:15:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

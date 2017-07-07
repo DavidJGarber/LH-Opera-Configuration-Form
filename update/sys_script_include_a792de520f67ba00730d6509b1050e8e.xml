@@ -20,7 +20,7 @@ while (target.next()){
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>dgarber</sys_created_by>
         <sys_created_on>2017-06-26 16:09:21</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>a792de520f67ba00730d6509b1050e8e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Opera Config set state to prop approval</sys_name>

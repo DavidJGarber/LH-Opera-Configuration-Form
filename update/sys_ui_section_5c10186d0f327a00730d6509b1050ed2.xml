@@ -5,13 +5,13 @@
             <element>u_room_number</element>
             <position>0</position>
             <sys_created_by>dgarber</sys_created_by>
-            <sys_created_on>2017-05-17 15:56:27</sys_created_on>
-            <sys_id>a410586d0f327a00730d6509b1050e1b</sys_id>
+            <sys_created_on>2017-07-03 14:36:41</sys_created_on>
+            <sys_id>428082e00fffb200730d6509b1050e5b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Rooms" display_value="Rooms" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">5c10186d0f327a00730d6509b1050ed2</sys_ui_section>
             <sys_updated_by>dgarber</sys_updated_by>
-            <sys_updated_on>2017-05-17 15:56:27</sys_updated_on>
+            <sys_updated_on>2017-07-03 14:36:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>u_room_type</element>
             <position>1</position>
             <sys_created_by>dgarber</sys_created_by>
-            <sys_created_on>2017-05-17 15:56:27</sys_created_on>
-            <sys_id>2810586d0f327a00730d6509b1050e1b</sys_id>
+            <sys_created_on>2017-07-03 14:36:41</sys_created_on>
+            <sys_id>c28082e00fffb200730d6509b1050e5b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Rooms" display_value="Rooms" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">5c10186d0f327a00730d6509b1050ed2</sys_ui_section>
             <sys_updated_by>dgarber</sys_updated_by>
-            <sys_updated_on>2017-05-17 15:56:27</sys_updated_on>
+            <sys_updated_on>2017-07-03 14:36:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>u_floor_number</element>
             <position>2</position>
             <sys_created_by>dgarber</sys_created_by>
-            <sys_created_on>2017-05-17 15:56:27</sys_created_on>
-            <sys_id>a810586d0f327a00730d6509b1050e1b</sys_id>
+            <sys_created_on>2017-07-03 14:36:41</sys_created_on>
+            <sys_id>468082e00fffb200730d6509b1050e5b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Rooms" display_value="Rooms" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">5c10186d0f327a00730d6509b1050ed2</sys_ui_section>
             <sys_updated_by>dgarber</sys_updated_by>
-            <sys_updated_on>2017-05-17 15:56:27</sys_updated_on>
+            <sys_updated_on>2017-07-03 14:36:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -47,13 +47,13 @@
             <element>u_floor_location</element>
             <position>3</position>
             <sys_created_by>dgarber</sys_created_by>
-            <sys_created_on>2017-05-17 15:56:27</sys_created_on>
-            <sys_id>2c10586d0f327a00730d6509b1050e1b</sys_id>
+            <sys_created_on>2017-07-03 14:36:41</sys_created_on>
+            <sys_id>c68082e00fffb200730d6509b1050e5b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Rooms" display_value="Rooms" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">5c10186d0f327a00730d6509b1050ed2</sys_ui_section>
             <sys_updated_by>dgarber</sys_updated_by>
-            <sys_updated_on>2017-05-17 15:56:27</sys_updated_on>
+            <sys_updated_on>2017-07-03 14:36:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,13 +61,13 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>dgarber</sys_created_by>
-            <sys_created_on>2017-05-17 15:56:27</sys_created_on>
-            <sys_id>ac10586d0f327a00730d6509b1050e1b</sys_id>
+            <sys_created_on>2017-07-03 14:36:41</sys_created_on>
+            <sys_id>4a8082e00fffb200730d6509b1050e5b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Rooms" display_value="Rooms" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">5c10186d0f327a00730d6509b1050ed2</sys_ui_section>
             <sys_updated_by>dgarber</sys_updated_by>
-            <sys_updated_on>2017-05-17 15:56:27</sys_updated_on>
+            <sys_updated_on>2017-07-03 14:36:41</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -75,13 +75,13 @@
             <element>u_room_feature_s</element>
             <position>5</position>
             <sys_created_by>dgarber</sys_created_by>
-            <sys_created_on>2017-05-17 15:56:27</sys_created_on>
-            <sys_id>2010586d0f327a00730d6509b1050e1c</sys_id>
+            <sys_created_on>2017-07-03 14:36:41</sys_created_on>
+            <sys_id>ca8082e00fffb200730d6509b1050e5b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Rooms" display_value="Rooms" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">5c10186d0f327a00730d6509b1050ed2</sys_ui_section>
             <sys_updated_by>dgarber</sys_updated_by>
-            <sys_updated_on>2017-05-17 15:56:27</sys_updated_on>
+            <sys_updated_on>2017-07-03 14:36:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -89,13 +89,13 @@
             <element>u_connecting_room_number</element>
             <position>6</position>
             <sys_created_by>dgarber</sys_created_by>
-            <sys_created_on>2017-05-17 15:56:27</sys_created_on>
-            <sys_id>a010586d0f327a00730d6509b1050e1c</sys_id>
+            <sys_created_on>2017-07-03 14:36:41</sys_created_on>
+            <sys_id>5e8082e00fffb200730d6509b1050e5b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Rooms" display_value="Rooms" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">5c10186d0f327a00730d6509b1050ed2</sys_ui_section>
             <sys_updated_by>dgarber</sys_updated_by>
-            <sys_updated_on>2017-05-17 15:56:27</sys_updated_on>
+            <sys_updated_on>2017-07-03 14:36:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -103,13 +103,13 @@
             <element>u_housekeeping_stayover_credit_number</element>
             <position>7</position>
             <sys_created_by>dgarber</sys_created_by>
-            <sys_created_on>2017-05-17 15:56:27</sys_created_on>
-            <sys_id>2410586d0f327a00730d6509b1050e1c</sys_id>
+            <sys_created_on>2017-07-03 14:36:41</sys_created_on>
+            <sys_id>de8082e00fffb200730d6509b1050e5b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Rooms" display_value="Rooms" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">5c10186d0f327a00730d6509b1050ed2</sys_ui_section>
             <sys_updated_by>dgarber</sys_updated_by>
-            <sys_updated_on>2017-05-17 15:56:27</sys_updated_on>
+            <sys_updated_on>2017-07-03 14:36:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -117,13 +117,13 @@
             <element>u_housekeeping_departure_credit_number</element>
             <position>8</position>
             <sys_created_by>dgarber</sys_created_by>
-            <sys_created_on>2017-05-17 15:56:27</sys_created_on>
-            <sys_id>a410586d0f327a00730d6509b1050e1c</sys_id>
+            <sys_created_on>2017-07-03 14:36:41</sys_created_on>
+            <sys_id>528082e00fffb200730d6509b1050e5c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Rooms" display_value="Rooms" name="x_lohar_opera_conf_config" sys_domain="global" view="Default view">5c10186d0f327a00730d6509b1050ed2</sys_ui_section>
             <sys_updated_by>dgarber</sys_updated_by>
-            <sys_updated_on>2017-05-17 15:56:27</sys_updated_on>
+            <sys_updated_on>2017-07-03 14:36:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -138,7 +138,7 @@
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_id>5c10186d0f327a00730d6509b1050ed2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_name>Rooms</sys_name>
             <sys_overrides display_value="">global</sys_overrides>
             <sys_package display_value="Loews Hotels Opera Configuration Form" source="x_lohar_opera_conf">6c8ed5dd0f323a006833a218b1050e9a</sys_package>
@@ -147,7 +147,7 @@
             <sys_scope display_value="Loews Hotels Opera Configuration Form">6c8ed5dd0f323a006833a218b1050e9a</sys_scope>
             <sys_update_name>sys_ui_section_5c10186d0f327a00730d6509b1050ed2</sys_update_name>
             <sys_updated_by>dgarber</sys_updated_by>
-            <sys_updated_on>2017-05-17 15:56:26</sys_updated_on>
+            <sys_updated_on>2017-07-03 14:36:41</sys_updated_on>
             <sys_user/>
             <title>false</title>
             <view display_value="Default view" name="NULL">Default view</view>

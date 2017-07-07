@@ -12,7 +12,7 @@
         <sys_class_name>sys_process_flow</sys_class_name>
         <sys_created_by>dgarber</sys_created_by>
         <sys_created_on>2017-06-19 18:49:26</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>9a04ba840fafb600730d6509b1050e1d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Corporate Approval</sys_name>

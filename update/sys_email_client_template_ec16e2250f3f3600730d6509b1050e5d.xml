@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_email_client_template">
+    <sys_email_client_template action="INSERT_OR_UPDATE">
+        <blind_copied/>
+        <body/>
+        <condition/>
+        <copied>assigned_to</copied>
+        <from/>
+        <name>Opera Config Template</name>
+        <order>100</order>
+        <recipients>u_requestor</recipients>
+        <reply_to/>
+        <subject>number, short_description</subject>
+        <sys_class_name>sys_email_client_template</sys_class_name>
+        <sys_created_by>dgarber</sys_created_by>
+        <sys_created_on>2017-07-06 19:55:51</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>ec16e2250f3f3600730d6509b1050e5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Opera Config Template</sys_name>
+        <sys_package display_value="Loews Hotels Opera Configuration Form" source="x_lohar_opera_conf">6c8ed5dd0f323a006833a218b1050e9a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Loews Hotels Opera Configuration Form">6c8ed5dd0f323a006833a218b1050e9a</sys_scope>
+        <sys_update_name>sys_email_client_template_ec16e2250f3f3600730d6509b1050e5d</sys_update_name>
+        <sys_updated_by>dgarber</sys_updated_by>
+        <sys_updated_on>2017-07-06 19:55:51</sys_updated_on>
+        <table>x_lohar_opera_conf_config</table>
+    </sys_email_client_template>
+</record_update>

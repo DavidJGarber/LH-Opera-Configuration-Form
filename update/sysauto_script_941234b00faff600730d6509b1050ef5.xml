@@ -33,7 +33,7 @@ gr.update();
         <sys_class_name>sysauto_script</sys_class_name>
         <sys_created_by>dgarber</sys_created_by>
         <sys_created_on>2017-06-21 17:16:37</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>941234b00faff600730d6509b1050ef5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>update state to property approvers</sys_name>

@@ -8,7 +8,7 @@
         <sys_class_name>sys_ui_view</sys_class_name>
         <sys_created_by>dgarber</sys_created_by>
         <sys_created_on>2017-06-21 17:32:43</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>8cc5bc300fe736006833a218b1050e6f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Sys_popup,client_transaction</sys_name>
