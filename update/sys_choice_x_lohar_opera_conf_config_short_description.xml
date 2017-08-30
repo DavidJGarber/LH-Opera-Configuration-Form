@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="short_description" table="x_lohar_opera_conf_config" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Deactivate Item Inventory</label>
+            <language>en</language>
+            <name>x_lohar_opera_conf_config</name>
+            <sequence/>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-08-21 19:07:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5f64535c0ff003006833a218b1050ef4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-08-21 19:07:48</sys_updated_on>
+            <value>Deactivate Item Inventory</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Deactivate Room</label>
+            <language>en</language>
+            <name>x_lohar_opera_conf_config</name>
+            <sequence/>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-08-21 19:08:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>46a4975c0ff003006833a218b1050e14</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-08-21 19:08:46</sys_updated_on>
+            <value>Deactivate Room</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Deactivate Room Type</label>
+            <language>en</language>
+            <name>x_lohar_opera_conf_config</name>
+            <sequence/>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-08-21 19:08:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b494df1c0ff003006833a218b1050e7e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-08-21 19:08:27</sys_updated_on>
+            <value>Deactivate Room Type</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Deactivate Special Code</label>
+            <language>en</language>
+            <name>x_lohar_opera_conf_config</name>
+            <sequence/>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-08-21 19:08:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5c84135c0ff003006833a218b1050e95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-08-21 19:08:02</sys_updated_on>
+            <value>Deactivate Special Code</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New Item Inventory</label>
+            <language>en</language>
+            <name>x_lohar_opera_conf_config</name>
+            <sequence/>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-08-21 19:04:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>9a339b1c0ff003006833a218b1050e73</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-08-21 19:04:40</sys_updated_on>
+            <value>New Item Inventory</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New Room</label>
+            <language>en</language>
+            <name>x_lohar_opera_conf_config</name>
+            <sequence/>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-08-21 19:05:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>67e3571c0ff003006833a218b1050e8e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-08-21 19:05:31</sys_updated_on>
+            <value>New Room</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New Room Type</label>
+            <language>en</language>
+            <name>x_lohar_opera_conf_config</name>
+            <sequence/>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-08-21 19:05:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c8e39b1c0ff003006833a218b1050e76</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-08-21 19:05:17</sys_updated_on>
+            <value>New Room Type</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New Special Code</label>
+            <language>en</language>
+            <name>x_lohar_opera_conf_config</name>
+            <sequence/>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-08-21 19:07:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>72445b1c0ff003006833a218b1050e70</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-08-21 19:07:12</sys_updated_on>
+            <value>New Special Code</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New Special Code</label>
+            <language>en</language>
+            <name>x_lohar_opera_conf_config</name>
+            <sequence/>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-08-21 19:04:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>fac35f1c0ff003006833a218b1050eeb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-08-21 19:04:59</sys_updated_on>
+            <value>New Special Code</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Update Item Inventory</label>
+            <language>en</language>
+            <name>x_lohar_opera_conf_config</name>
+            <sequence/>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-08-21 19:06:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4234935c0ff003006833a218b1050e18</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-08-21 19:06:52</sys_updated_on>
+            <value>Update Item Inventory</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Update Room</label>
+            <language>en</language>
+            <name>x_lohar_opera_conf_config</name>
+            <sequence/>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-08-21 19:06:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>142453d80ff003006833a218b1050edf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-08-21 19:06:26</sys_updated_on>
+            <value>Update Room</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>short_description</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Update Room Type</label>
+            <language>en</language>
+            <name>x_lohar_opera_conf_config</name>
+            <sequence/>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-08-21 19:06:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>33049f1c0ff003006833a218b1050e9f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-08-21 19:06:09</sys_updated_on>
+            <value>Update Room Type</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <name>x_lohar_opera_conf_config</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dgarber</sys_created_by>
+            <sys_created_on>2017-08-21 19:04:40</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>bdc3171c0ff003006833a218b1050e6b</sys_id>
+            <sys_mod_count>12</sys_mod_count>
+            <sys_name>short_description</sys_name>
+            <sys_package display_value="Loews Hotels Opera Configuration Form" source="x_lohar_opera_conf">6c8ed5dd0f323a006833a218b1050e9a</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Loews Hotels Opera Configuration Form">6c8ed5dd0f323a006833a218b1050e9a</sys_scope>
+            <sys_update_name>sys_choice_x_lohar_opera_conf_config_short_description</sys_update_name>
+            <sys_updated_by>dgarber</sys_updated_by>
+            <sys_updated_on>2017-08-21 19:08:46</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

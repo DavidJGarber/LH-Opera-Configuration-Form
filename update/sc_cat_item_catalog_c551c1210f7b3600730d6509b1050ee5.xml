@@ -6,7 +6,7 @@
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>dgarber</sys_created_by>
         <sys_created_on>2017-07-06 12:34:27</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>c551c1210f7b3600730d6509b1050ee5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Service Catalog.Loews Hotels Opera Configuration Form</sys_name>

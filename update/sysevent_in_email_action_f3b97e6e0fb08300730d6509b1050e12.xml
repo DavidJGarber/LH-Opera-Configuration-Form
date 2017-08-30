@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description/>
+        <event_name>email.read</event_name>
+        <filter_condition table="sys_email">recipientsINlhuo_helpdesk@loewshotels.com^EQ<item endquery="false" field="recipients" goto="false" newquery="false" operator="IN" or="false" value="lhuo_helpdesk@loewshotels.com"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <from/>
+        <name>Create Incident (Forwarded)</name>
+        <order>100</order>
+        <reply_email/>
+        <required_roles/>
+        <script><![CDATA[var skipmsg = false;
+
+if (email.subject != undefined) {
+  var subject = email.subject;
+
+if (email.subject == "CISCO GUEST ACCESS") {
+  skipmsg = true;
+}
+if ((subject.toLowerCase().indexOf("out of the office") > -1) || (subject.toLowerCase().indexOf("in my absence") > -1))
+   skipmsg = true;
+if ((subject.toLowerCase().indexOf("je suis absent(e)") > -1))
+   skipmsg = true;
+if (subject.toLowerCase().indexOf("your message has been received by loews hotels reservations center") > -1)
+   skipmsg = true;
+}
+
+if (!skipmsg) {
+
+
+current.comments = "forwarded by: " + email.origemail + "\n\n" + email.body_text;
+current.short_description = email.subject;
+
+var sid = gs.getUserID();
+
+current.caller_id = sid;
+current.opened_by = sid;
+current.u_department = current.caller_id.department;
+current.location = current.caller_id.location;
+current.u_vip = current.caller_id.vip;
+//current.category = "request";
+current.state = 1;
+current.notify = 2;
+current.contact_type = "email";
+current.assignment_group.setDisplayValue('Hotel Service Desk');
+current.company.setDisplayValue('Loews Hotels');
+
+var localITlookup = new GlideRecord('u_hotel_interface_mapping');
+  localITlookup.get('u_location',current.location.sys_id);
+		
+  var localITwatchlist = new GlideRecord('sys_user_group');
+  localITwatchlist.get('name', localITlookup.u_local_it_group.name);
+	
+  gs.getSession().setStrictQuery(true);
+  var watchlistmembers = new GlideRecord('sys_user_grmember');	
+  watchlistmembers.addQuery('group.sys_id', localITwatchlist.sys_id);  
+  watchlistmembers.query();
+  current.u_itil_watch_list = '';
+  var i = 0;
+  //gs.log('group id - ' + localITwatchlist.sys_id);
+  //gs.log('record count - ' + watchlistmembers.getRowCount());
+  while (watchlistmembers.next()) {
+	//i++;		
+	current.u_itil_watch_list += ', ' + watchlistmembers.user;
+  } 
+
+if (subject.toLowerCase().indexOf("microspos import failed for") > -1) {
+ var propertycode = subject.substring(33);
+ var bs = new GlideRecord('cmdb_ci_service');  
+ var locale = new GlideRecord('cmn_location');
+ locale.get('u_property_code',propertycode);
+ 
+ var pos = new GlideRecord('u_hotel_interface_mapping');
+ pos.get('u_location',locale.sys_id);
+
+ current.u_business_service= pos.u_pos_system; 
+} 
+
+
+if(email.importance != undefined)
+  if(email.importance == "High")
+    current.priority = 1;
+
+if (current.caller_id.vip == true) {
+  current.urgency = 1;
+  current.priority = 1
+} 
+
+//if (email.body.priority != undefined) current.priority = email.body.priority;
+
+//if (email.body.u_category != undefined) current.category = email.body.category;
+
+current.insert();
+
+}]]></script>
+        <stop_processing>false</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>dgarber</sys_created_by>
+        <sys_created_on>2017-08-28 16:57:18</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>f3b97e6e0fb08300730d6509b1050e12</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Create Incident (Forwarded)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loews Hotels Opera Configuration Form" source="x_lohar_opera_conf">6c8ed5dd0f323a006833a218b1050e9a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Loews Hotels Opera Configuration Form">6c8ed5dd0f323a006833a218b1050e9a</sys_scope>
+        <sys_update_name>sysevent_in_email_action_f3b97e6e0fb08300730d6509b1050e12</sys_update_name>
+        <sys_updated_by>dgarber</sys_updated_by>
+        <sys_updated_on>2017-08-28 16:57:41</sys_updated_on>
+        <table>x_lohar_orlando_in_orlando_incident</table>
+        <template/>
+        <type>forward</type>
+    </sysevent_in_email_action>
+</record_update>

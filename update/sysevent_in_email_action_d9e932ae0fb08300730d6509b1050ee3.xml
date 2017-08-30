@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_in_email_action">
+    <sysevent_in_email_action action="INSERT_OR_UPDATE">
+        <action>record_action</action>
+        <active>true</active>
+        <assignment_operator/>
+        <condition_script/>
+        <description/>
+        <event_name>email.read</event_name>
+        <filter_condition table="sys_email">subjectLIKEplease reopen^recipientsINlhuo_helpdesk@loewshotels.com^EQ<item endquery="false" field="subject" goto="false" newquery="false" operator="LIKE" or="false" value="please reopen"/>
+            <item endquery="false" field="recipients" goto="false" newquery="false" operator="IN" or="false" value="lhuo_helpdesk@loewshotels.com"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <from/>
+        <name>Reopen Incident</name>
+        <order>50</order>
+        <reply_email/>
+        <required_roles/>
+        <script/>
+        <stop_processing>false</stop_processing>
+        <sys_class_name>sysevent_in_email_action</sys_class_name>
+        <sys_created_by>dgarber</sys_created_by>
+        <sys_created_on>2017-08-28 16:57:56</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>d9e932ae0fb08300730d6509b1050ee3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Reopen Incident</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loews Hotels Opera Configuration Form" source="x_lohar_opera_conf">6c8ed5dd0f323a006833a218b1050e9a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Loews Hotels Opera Configuration Form">6c8ed5dd0f323a006833a218b1050e9a</sys_scope>
+        <sys_update_name>sysevent_in_email_action_d9e932ae0fb08300730d6509b1050ee3</sys_update_name>
+        <sys_updated_by>dgarber</sys_updated_by>
+        <sys_updated_on>2017-08-28 16:58:42</sys_updated_on>
+        <table>x_lohar_orlando_in_orlando_incident</table>
+        <template>state=2^work_notes=The caller did not feel that this issue was resolved^EQ</template>
+        <type>reply</type>
+    </sysevent_in_email_action>
+</record_update>

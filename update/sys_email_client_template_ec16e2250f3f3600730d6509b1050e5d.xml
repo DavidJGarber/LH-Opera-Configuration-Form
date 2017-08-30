@@ -14,7 +14,7 @@
         <sys_class_name>sys_email_client_template</sys_class_name>
         <sys_created_by>dgarber</sys_created_by>
         <sys_created_on>2017-07-06 19:55:51</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>ec16e2250f3f3600730d6509b1050e5d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Opera Config Template</sys_name>

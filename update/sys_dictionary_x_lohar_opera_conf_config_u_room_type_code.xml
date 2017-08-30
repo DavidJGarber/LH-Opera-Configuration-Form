@@ -21,8 +21,8 @@
         <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent>u_quantity</dependent>
-        <dependent_on_field>u_quantity</dependent_on_field>
+        <dependent>u_location</dependent>
+        <dependent_on_field>u_location</dependent_on_field>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
@@ -52,17 +52,17 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>dgarber</sys_created_by>
         <sys_created_on>2017-05-17 15:40:06</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
-        <sys_id>06fbc9430feff2006833a218b1050e3f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>e7e795040fd80300730d6509b1050ebc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Room Type Code</sys_name>
         <sys_package display_value="Loews Hotels Opera Configuration Form" source="x_lohar_opera_conf">6c8ed5dd0f323a006833a218b1050e9a</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Loews Hotels Opera Configuration Form">6c8ed5dd0f323a006833a218b1050e9a</sys_scope>
         <sys_update_name>sys_dictionary_x_lohar_opera_conf_config_u_room_type_code</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-06-28 19:15:53</sys_updated_on>
+        <sys_updated_by>dgarber</sys_updated_by>
+        <sys_updated_on>2017-07-27 14:35:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

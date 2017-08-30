@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Loews Hotels Opera Configuration Form">5eb44c650f327a00730d6509b1050e91</catalog_item>
+        <catalog_variable>IO:09435d6d0fb27a00730d6509b1050e2a</catalog_variable>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>dgarber</sys_created_by>
+        <sys_created_on>2017-07-27 14:27:46</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>4b74e1980f904300730d6509b1050e7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_requested_due_by</sys_name>
+        <sys_package display_value="Loews Hotels Opera Configuration Form" source="x_lohar_opera_conf">6c8ed5dd0f323a006833a218b1050e9a</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Loews Hotels Opera Configuration Form">6c8ed5dd0f323a006833a218b1050e9a</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_4b74e1980f904300730d6509b1050e7a</sys_update_name>
+        <sys_updated_by>dgarber</sys_updated_by>
+        <sys_updated_on>2017-07-27 14:27:46</sys_updated_on>
+        <table/>
+        <ui_policy display_value="make due date none editable">a31421980f904300730d6509b1050e9e</ui_policy>
+        <variable>u_requested_due_by</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

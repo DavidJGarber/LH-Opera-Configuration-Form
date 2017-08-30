@@ -9,7 +9,7 @@
         <sys_class_name>catalog_ui_policy_action</sys_class_name>
         <sys_created_by>dgarber</sys_created_by>
         <sys_created_on>2017-07-06 12:32:35</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>c6a085210f7b3600730d6509b1050e8b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>u_requested_due_by</sys_name>
@@ -21,7 +21,7 @@
         <sys_updated_by>dgarber</sys_updated_by>
         <sys_updated_on>2017-07-06 12:32:35</sys_updated_on>
         <table/>
-        <ui_policy display_value="disable date">5a2ff8ed0f3b3600730d6509b1050e70</ui_policy>
+        <ui_policy/>
         <variable>u_requested_due_by</variable>
         <variable_set/>
         <visible>ignore</visible>

@@ -21,7 +21,7 @@
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>dgarber</sys_created_by>
         <sys_created_on>2017-05-17 15:04:47</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>5dc3c0250f327a00730d6509b1050e61</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Config</sys_name>

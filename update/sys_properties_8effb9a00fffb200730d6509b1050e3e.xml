@@ -11,7 +11,7 @@
         <sys_class_name>sys_properties</sys_class_name>
         <sys_created_by>dgarber</sys_created_by>
         <sys_created_on>2017-07-03 14:34:13</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>8effb9a00fffb200730d6509b1050e3e</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>glide.ui.x_lohar_opera_conf_config_activity.fields</sys_name>

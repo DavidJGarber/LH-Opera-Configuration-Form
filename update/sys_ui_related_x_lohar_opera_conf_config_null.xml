@@ -25,7 +25,7 @@
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>dgarber</sys_created_by>
             <sys_created_on>2017-07-04 20:42:31</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_id>32dd50890fffb6006833a218b1050eca</sys_id>
             <sys_mod_count>0</sys_mod_count>

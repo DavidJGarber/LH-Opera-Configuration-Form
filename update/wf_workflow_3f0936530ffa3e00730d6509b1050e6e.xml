@@ -34,12 +34,12 @@
         <sys_created_by>dgarber</sys_created_by>
         <sys_created_on>2017-07-06 17:07:21</sys_created_on>
         <sys_id>6ecff9ed0fbb3600730d6509b1050e61</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_updated_by>dgarber</sys_updated_by>
-        <sys_updated_on>2017-07-06 17:12:41</sys_updated_on>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_updated_by>nate.mucci</sys_updated_by>
+        <sys_updated_on>2017-07-27 15:15:18</sys_updated_on>
         <table>x_lohar_opera_conf_config</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="LH Opera Configuration Form">3f0936530ffa3e00730d6509b1050e6e</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">

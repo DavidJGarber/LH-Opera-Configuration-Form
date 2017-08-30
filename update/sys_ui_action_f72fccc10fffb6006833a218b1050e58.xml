@@ -32,7 +32,7 @@ new UIActionUtils().approvalsNoLongerRequired(current.sys_id);]]></script>
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>dgarber</sys_created_by>
         <sys_created_on>2017-07-04 19:39:21</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>f72fccc10fffb6006833a218b1050e58</sys_id>
         <sys_mod_count>0</sys_mod_count>
